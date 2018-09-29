@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fake Call</string>
+    <string name="select_file">Chọn Ảnh</string>
+    <string name="name">Tên:</string>
+    <string name="phone">SĐT:</string>
+    <string name="done">Xong</string>
+    <string name="add_voice">Âm Thanh</string>
+    <string name="set_time">Hẹn Giờ</string>
+    <string name="demo">Thử</string>
+    <string name="choose_hour">Hẹn Giờ:</string>
+    <string name="toast_fakecall">"Cuộc gọi sẽ được thực hiện khoảng "</string>
+    <string name="select_voice">Chọn âm thanh</string>
+    <string name="cancel">Hủy</string>
+    <string name="minute_call">phút</string>
+    <string name="hour_call">giờ</string>
+    <string name="toast_done">Thiết lập xong!</string>
+    <string name="times">lần</string>
+    <string name="repeat_after">Lặp lại sau:</string>
+    <string name="rate_us">Đánh giá</string>
+    <string name="rate_it">Nếu thấy ứng dụng có ích, hay đánh giá cho chúng tôi!</string>
+    <string name="ok">Đồng ý</string>
+</resources>
