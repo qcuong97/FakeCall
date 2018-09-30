@@ -18,6 +18,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -46,12 +47,24 @@ public class CallActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_call);
-        MainActivity.showInterstitial();
+        Admod();
         Anhxa();
         Animation_call();
         TurnonRingtone();
         Button_Call();
         Getinfo();
+    }
+
+    private void Admod() {
+        Intent intent = getIntent();
+        String demo_ = intent.getStringExtra("Demo_ads");
+        if ( demo_.equalsIgnoreCase("1")){
+            MainActivity.showInterstitial();
+            Log.i("QC_","ok");
+        }
+        else {
+            Log.i("QC_","Fail");
+        }
     }
 
     private void Button_Call() {

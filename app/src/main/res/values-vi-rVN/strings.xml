@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Fake Call</string>
+    <string name="app_name">Tạo Cuộc Gọi Giả</string>
     <string name="select_file">Chọn Ảnh</string>
     <string name="name">Tên:</string>
     <string name="phone">SĐT:</string>

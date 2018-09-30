@@ -195,6 +195,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Save_data_call();
                 Intent intent = new Intent(MainActivity.this,CallActivity.class);
+                intent.putExtra("Demo_ads","1");
                 startActivity(intent);
             }
         });
