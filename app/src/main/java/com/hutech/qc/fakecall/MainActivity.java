@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Admob() {
-        MobileAds.initialize(this, "ca-app-pub-6212624214413563~5702523408");
+        MobileAds.initialize(this, "");
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-6212624214413563/7113584097");
+        mInterstitialAd.setAdUnitId("");
         mInterstitialAd.loadAd(adRequest);
         mInterstitialAd.setAdListener(new AdListener()
         {
